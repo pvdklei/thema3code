@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    margin-top: 3rem;
+    overflow: auto;
+}
+
+.content-element {
+    margin-bottom: 1.8rem;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 600px) {
+    .content {
+        margin: 2rem 10rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .content {
+        margin: 2rem 18rem;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .content {
+        margin: 2rem 25rem;
+    }
+}
+
+.main-button {
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    background-color: lightgrey;
+    text-decoration: none;
+    color: black;
+}
+
+.next-round-button {
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    background-color: lightgrey;
+    margin-top: 2rem;
+}
+
+.game-action-button {
+    padding: 0.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: lightgray;
+    transition: transform 400ms;
+    margin-bottom: 1.5rem;
+    margin-top: 0.4rem;
+}
+
+.game-action-button.selected {
+    background-color: rgb(196, 31, 31);
+    transform: scale(1.4);
+    color: white;
+}
+
+.button {
+    transition: transform 0.2s;
+}
+
+.button:active {
+    transform: scale(1.2);
+}
+
+.question-box {
+    background-color: rgb(236, 234, 234);
+    border-radius: 0.6rem;
+    padding: 1.5rem;
+    min-width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.question-box p {
+    margin-bottom: 3rem;
+}
+
+.textfield-focussed {
+    border-color: black;
+    color: black;
+}
+
+nav {
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(255, 183, 183);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+nav img {
+    height: 80%;
+}
+
+footer {
+    height: 3rem;
+    background-image: linear-gradient(to bottom, transparent, rgb(167, 167, 167));
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+

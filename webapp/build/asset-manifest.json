@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/thema3/static/css/main.537f199c.chunk.css",
+    "main.js": "/thema3/static/js/main.b5529864.chunk.js",
+    "main.js.map": "/thema3/static/js/main.b5529864.chunk.js.map",
+    "runtime-main.js": "/thema3/static/js/runtime-main.73c910f9.js",
+    "runtime-main.js.map": "/thema3/static/js/runtime-main.73c910f9.js.map",
+    "static/js/2.de962bf3.chunk.js": "/thema3/static/js/2.de962bf3.chunk.js",
+    "static/js/2.de962bf3.chunk.js.map": "/thema3/static/js/2.de962bf3.chunk.js.map",
+    "index.html": "/thema3/index.html",
+    "static/css/main.537f199c.chunk.css.map": "/thema3/static/css/main.537f199c.chunk.css.map",
+    "static/js/2.de962bf3.chunk.js.LICENSE.txt": "/thema3/static/js/2.de962bf3.chunk.js.LICENSE.txt",
+    "static/media/pd.335011d1.jpg": "/thema3/static/media/pd.335011d1.jpg",
+    "static/media/uva-logo.687e30c7.png": "/thema3/static/media/uva-logo.687e30c7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73c910f9.js",
+    "static/js/2.de962bf3.chunk.js",
+    "static/css/main.537f199c.chunk.css",
+    "static/js/main.b5529864.chunk.js"
+  ]
+}
